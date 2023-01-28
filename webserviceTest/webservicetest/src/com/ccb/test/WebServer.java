@@ -12,5 +12,6 @@ public class WebServer {
 	public static void main(String[] args) {
 		Endpoint.publish("http://127.0.0.1:7001/innservice", new WebServer());
 		System.out.println("端口发布成功");
+		System.out.println("新增数据");
 	}
 }
